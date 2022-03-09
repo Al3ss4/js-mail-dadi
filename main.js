@@ -14,6 +14,20 @@ const email = prompt('Inserisci la tua e-mail')
 // console.log(email);
 
 
+// email presenti nella lista 
+const emailValide = [ 'alessandro.r14@gmail.com', 'mario@gmail.com', 'francesco@gmail.com', 'luigi@gmail.com'];
+
+// stampa un messaggio appropriato sull’esito del controllo.
+
+
+// controlla che sia nella lista di chi può accedere
+for (let i=0; i < emailValide.length; i++){
+    if(email== emailValide[i]){
+
+    }
+}
+
+
 
 
 // Gioco dei dadi
