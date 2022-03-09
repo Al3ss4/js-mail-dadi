@@ -7,7 +7,11 @@ console.log('JS OK');
 // stampa un messaggio appropriato sull’esito del controllo.
 
 
+// Chiedi all’utente la sua email
 
+const email = prompt('Inserisci la tua e-mail')
+
+// console.log(email);
 
 
 
