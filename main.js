@@ -9,24 +9,26 @@ console.log('JS OK');
 
 // Chiedi all’utente la sua email
 
-const email = prompt('Inserisci la tua e-mail')
+var email = prompt('Inserisci la tua e-mail')
 
 // console.log(email);
 
 
 // email presenti nella lista 
-const emailValide = [ 'alessandro.r14@gmail.com', 'mario@gmail.com', 'francesco@gmail.com', 'luigi@gmail.com'];
+var emailValide = [ 'alessandro.r14@gmail.com', 'mario@gmail.com', 'francesco@gmail.com', 'luigi@gmail.com'];
 
 // stampa un messaggio appropriato sull’esito del controllo.
+// se l'email sarà presente nella lista, il messaggio verrà cambiato nel if
+var veroFalso = 'la tua e-mail non è valida';
 
 
 // controlla che sia nella lista di chi può accedere
 for (let i=0; i < emailValide.length; i++){
-    if(email== emailValide[i]){
-
+    if(email == emailValide[i]){
+        veroFalso = 'la tua e-mail è valida';
     }
 }
-
+console.log(veroFalso);
 
 
 
