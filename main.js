@@ -11,7 +11,7 @@ console.log('JS OK');
 
 var email = prompt('Inserisci la tua e-mail')
 
-// console.log(email);
+console.log(email);
 
 
 // email presenti nella lista 
