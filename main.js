@@ -47,3 +47,9 @@ var giocatore = Math.floor(Math.random () * 6) + 1;
 //Generare un numero random da 1 a 6 per il computer
 var computer = Math.floor(Math.random () * 6) + 1;
  console.log('computer', computer);
+
+ //messaggio di pareggio tra giocatore e computer, il messaggio si modificherà nell if, se vincerà il giocatore uscirà messaggio vittoria giocatore, viceversa per il computer 
+ var messaggioPareggioVittoria = 'Avete pareggiato!'
+
+
+
