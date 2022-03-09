@@ -51,5 +51,11 @@ var computer = Math.floor(Math.random () * 6) + 1;
  //messaggio di pareggio tra giocatore e computer, il messaggio si modificherà nell if, se vincerà il giocatore uscirà messaggio vittoria giocatore, viceversa per il computer 
  var messaggioPareggioVittoria = 'Avete pareggiato!'
 
+if( giocatore > computer){
+    messaggioPareggioVittoria ='Il giocatore ha vinto!';
+}
+    else if( giocatore < computer){
+        messaggioPareggioVittoria ='Il computer ha vinto!';
+    }
 
 
