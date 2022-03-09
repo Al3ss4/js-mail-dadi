@@ -58,4 +58,4 @@ if( giocatore > computer){
         messaggioPareggioVittoria ='Il computer ha vinto!';
     }
 
-
+console.log(messaggioPareggioVittoria);
